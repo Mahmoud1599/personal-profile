@@ -1,0 +1,79 @@
+.bio__heading {
+  font-size: var(--font-size-70);
+  font-weight: var(--font-weight-bold);
+}
+.bio__objective {
+  margin: 3rem 0 8rem;
+  /* line-height: 1.6; */
+  font-size: var(--font-size-20);
+  font-family: var(--font-family-poppins);
+  font-weight: var(--font-weight-regular);
+}
+.bio__name {
+  font-weight: var(--font-weight-semi-bold);
+}
+.bio__html {
+  color: var(--color-dark-blue);
+}
+.bio__css {
+  color: var(--color-red);
+}
+.bio__js {
+  color: var(--color-dark-green);
+}
+.bio__links {
+  font-size: 2.4rem;
+  font-weight: var(--font-weight-semi-bold);
+  text-decoration: none;
+}
+.say-hi {
+  background-color: var(--color-box-img);
+  color: var(--color-background);
+  padding: 0.7rem 4.7rem;
+}
+.download {
+  color: var(--color-box-img);
+  padding: 0.7rem 0;
+  margin-left: 1.4rem;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0.5rem);
+  }
+  40% {
+    transform: translateY(-0.5rem);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.bio__arrow {
+  display: inline-block; /*without it, it won't work */
+  animation: jump 1s alternate ease-in-out infinite;
+}
+.bio__pic__content {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  justify-content: center;
+  justify-self: end;
+}
+.bio__pic {
+  width: 42.7rem;
+  height: 55rem;
+  border-radius: 1.5rem;
+}
+.bio__pic__content::before {
+  content: "";
+  position: absolute;
+  height: 50rem;
+  width: 70%;
+  background-color: var(--color-box-img);
+  z-index: -1;
+  border-radius: 1.8rem;
+  box-shadow: 2.17543px 8.7017px 38.0699px rgba(0, 0, 0, 0.15);
+}
