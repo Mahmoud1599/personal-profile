@@ -17,7 +17,7 @@ Welcome to my personal portfolio website repository! This platform serves as a d
 
 - **HTML**: Semantic markup for structured content.
 - **CSS (Sass)**: Styling and layout enhancements for maintainability.
-- **JavaScript**: Adds interactivity and enhances user experience.
+
 
 ## Layout Techniques:
 
@@ -28,12 +28,4 @@ Welcome to my personal portfolio website repository! This platform serves as a d
 
 Explore the live version of the website [here](https://mahmoud1599.github.io/personal-profile/).
 
-## Contributing:
 
-Contributions are welcomed! Fork this repository, make your changes, and submit a pull request. Your input is valued and appreciated.
-
-## Feedback and Contact:
-
-For feedback, suggestions, or inquiries, contact me through the information provided on the website.
-
-Thank you for visiting! Looking forward to potential collaborations and opportunities!
